@@ -1,0 +1,92 @@
+@import "css/modal.css";
+@import "css/form.css";
+@import "css/cat.css";
+body {
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+h2 {
+    margin: 0;
+}
+.container {
+    padding: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+.logo {
+    font-weight: 200;
+    font-size: 2rem;
+    user-select: none;
+    font-family: 'Shantell Sans', cursive;
+}
+.container .btn {
+    background-color: #3B8BEB;  
+    border-radius: 10px;
+    outline: black;
+    height: 30px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .btn:hover {
+    background-color: #5680E9; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: grey;  
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 15%);
+    padding: 15px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-text {
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font: inherit;
+    color: #fff;
+    background-color: rgba(30, 144, 255, 0.70);
+}
+.btn-text:hover {
+    background-color: #5680E9;
+}
+
+
+@media (min-width: 1040px) {
+    .container {
+        padding: 20px calc(50% - 500px)
+    }
+}
+
+
+.header_logo {
+    font-weight: 90;
+    font-size: 2rem;
+    user-select: none; 
+    width: 50px;
+}
